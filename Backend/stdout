@@ -1,0 +1,8 @@
+0000	4d 4f 4e 47 4f 5f 55 52  4c 3d 6d 6f 6e 67 6f 64   MONGO_URL=mongod
+0010	62 2b 73 72 76 3a 2f 2f  61 6e 69 6c 5a 65 72 6f   b+srv://anilZero
+0020	64 68 61 3a 7a 65 72 6f  64 68 61 61 6e 69 6c 31   dha:zerodhaanil1
+0030	40 7a 65 72 6f 64 68 61  63 6c 6f 6e 65 63 6c 75   @zerodhacloneclu
+0040	73 74 65 72 2e 6b 6b 78  6a 31 71 6a 2e 6d 6f 6e   ster.kkxj1qj.mon
+0050	67 6f 64 62 2e 6e 65 74  2f 7a 65 72 6f 64 68 61   godb.net/zerodha
+0060	3f 61 70 70 4e 61 6d 65  3d 5a 65 72 6f 64 68 61   ?appName=Zerodha
+0070	43 6c 6f 6e 65 43 6c 75  73 74 65 72               CloneCluster
