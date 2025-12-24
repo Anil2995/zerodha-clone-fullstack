@@ -4,7 +4,9 @@
   <img src="https://zerodha.com/static/images/logo.svg" alt="Zerodha Logo" width="200"/>
   
   **A comprehensive clone of India's largest stock broker - [Zerodha](https://zerodha.com/)**
-  
+
+  ### 🚀 [**View Live Demo**](https://frontend-lovat-five-16.vercel.app) 🚀
+
   [![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
   [![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
   [![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
