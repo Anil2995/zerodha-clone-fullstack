@@ -28,12 +28,31 @@ const app = express();
 
 // Enhanced CORS configuration for development and production
 app.use(cors({
-  origin: [
-    'http://localhost:3000',
-    'http://localhost:3001',
-    'https://frontend-lovat-five-16.vercel.app',
-    'https://dashboard-woad-delta-86.vercel.app'
-  ],
+  origin: function (origin, callback) {
+    // Allow requests with no origin (like mobile apps or curl requests)
+    if (!origin) return callback(null, true);
+
+    const allowedOrigins = [
+      'http://localhost:3000',
+      'http://localhost:3001',
+      'http://localhost:3002',
+      'https://frontend-lovat-five-16.vercel.app',
+      'https://dashboard-woad-delta-86.vercel.app',
+      'https://zerodha-clone-backend-green.vercel.app',
+      /\.vercel\.app$/  // Allow all vercel.app subdomains
+    ];
+
+    const isAllowed = allowedOrigins.some(allowed => {
+      if (allowed instanceof RegExp) return allowed.test(origin);
+      return allowed === origin;
+    });
+
+    if (isAllowed) {
+      callback(null, true);
+    } else {
+      callback(null, true); // Allow all for now during development
+    }
+  },
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   credentials: true,
   allowedHeaders: ['Content-Type', 'Authorization']

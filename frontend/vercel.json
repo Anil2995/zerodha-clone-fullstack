@@ -5,6 +5,23 @@
             "destination": "/"
         }
     ],
+    "redirects": [
+        {
+            "source": "/dashboard",
+            "destination": "https://dashboard-woad-delta-86.vercel.app",
+            "permanent": false
+        },
+        {
+            "source": "/dashboard/(.*)",
+            "destination": "https://dashboard-woad-delta-86.vercel.app/$1",
+            "permanent": false
+        },
+        {
+            "source": "/api/(.*)",
+            "destination": "https://zerodha-clone-backend-green.vercel.app/$1",
+            "permanent": false
+        }
+    ],
     "headers": [
         {
             "source": "/(.*)",
