@@ -5,12 +5,22 @@
   
   **A comprehensive clone of India's largest stock broker - [Zerodha](https://zerodha.com/)**
 
-  ### 🚀 [**View Live Demo**](https://frontend-lovat-five-16.vercel.app) 🚀
+  ## 🌐 [**👉 VIEW LIVE PROJECT 👈**](https://frontend-lovat-five-16.vercel.app) 🌐
 
   [![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
   [![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
   [![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
   [![Express](https://img.shields.io/badge/Express-5-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
+  [![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
+
+  ### 🔗 Live Deployment Links
+  
+  | Application | URL | Description |
+  |-------------|-----|-------------|
+  | 🏠 **Main Website** | [frontend-lovat-five-16.vercel.app](https://frontend-lovat-five-16.vercel.app) | Landing page with Signup/Login |
+  | 📊 **Trading Dashboard** | [dashboard-woad-delta-86.vercel.app](https://dashboard-woad-delta-86.vercel.app) | Kite trading interface |
+  | 🔧 **Backend API** | [zerodha-clone-backend-green.vercel.app](https://zerodha-clone-backend-green.vercel.app) | REST API server |
+
 </div>
 
 ---
