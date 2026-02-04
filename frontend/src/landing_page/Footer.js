@@ -11,9 +11,9 @@ function Footer() {
       { name: "Pricing", path: "/pricing" },
       { name: "Referral programme", path: "#" },
       { name: "Careers", path: "#" },
-      { name: "Zerodha.tech", path: "#" },
+      { name: "TradeZen.tech", path: "#" },
       { name: "Press & media", path: "#" },
-      { name: "Zerodha Cares (CSR)", path: "#" }
+      { name: "TradeZen Cares (CSR)", path: "#" }
     ],
     support: [
       { name: "Contact us", path: "/support" },
@@ -37,13 +37,13 @@ function Footer() {
             <Link to="/">
               <img
                 src="media/images/logo.svg"
-                alt="Zerodha Logo"
+                alt="TradeZen Logo"
                 style={{ width: "160px" }}
                 className="mb-4"
               />
             </Link>
             <p className="text-muted mb-4">
-              © 2010 - {currentYear}, Zerodha Broking Ltd.<br />
+              © 2010 - {currentYear}, TradeZen Broking Ltd.<br />
               All rights reserved.
             </p>
 
@@ -90,9 +90,9 @@ function Footer() {
 
         <div className="footer-disclaimer">
           <p>
-            Zerodha Broking Ltd.: Member of NSE, BSE​ & MCX – SEBI Registration no.:
-            INZ000031633 CDSL/NSDL: Depository services through Zerodha Broking Ltd.
-            – SEBI Registration no.: IN-DP-431-2019 Registered Address: Zerodha Broking Ltd.,
+            TradeZen Broking Ltd.: Member of NSE, BSE​ & MCX – SEBI Registration no.:
+            INZ000031633 CDSL/NSDL: Depository services through TradeZen Broking Ltd.
+            – SEBI Registration no.: IN-DP-431-2019 Registered Address: TradeZen Broking Ltd.,
             #153/154, 4th Cross, Dollars Colony, Opp. Clarence Public School, J.P Nagar 4th Phase,
             Bengaluru - 560078, Karnataka, India.
           </p>

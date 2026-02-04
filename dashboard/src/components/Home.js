@@ -17,7 +17,7 @@ const Home = () => {
   }, []);
 
   const checkAuth = () => {
-    const storedUser = localStorage.getItem("zerodhaUser");
+    const storedUser = localStorage.getItem("tradezenUser");
     if (storedUser) {
       try {
         const userData = JSON.parse(storedUser);
@@ -26,14 +26,14 @@ const Home = () => {
           setIsAuthenticated(true);
 
           // Check if this is first time user
-          const welcomeSeen = localStorage.getItem("zerodhaWelcomeSeen");
+          const welcomeSeen = localStorage.getItem("tradezenWelcomeSeen");
           if (!welcomeSeen) {
             setShowWelcome(true);
           }
         }
       } catch (e) {
         console.error("Error parsing user data:", e);
-        localStorage.removeItem("zerodhaUser");
+        localStorage.removeItem("tradezenUser");
       }
     }
     setIsLoading(false);
@@ -44,7 +44,7 @@ const Home = () => {
     setIsAuthenticated(true);
 
     // Show welcome modal for new logins
-    const welcomeSeen = localStorage.getItem("zerodhaWelcomeSeen");
+    const welcomeSeen = localStorage.getItem("tradezenWelcomeSeen");
     if (!welcomeSeen) {
       setShowWelcome(true);
     }
@@ -63,11 +63,11 @@ const Home = () => {
             <div className="loader-ring"></div>
             <img
               src="https://zerodha.com/static/images/kite-logo.svg"
-              alt="Kite"
+              alt="ZenTrade"
               className="loader-logo"
             />
           </div>
-          <p className="loading-text">Loading Kite...</p>
+          <p className="loading-text">Loading ZenTrade...</p>
         </div>
         <style>{`
           .loading-container {

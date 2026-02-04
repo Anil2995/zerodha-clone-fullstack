@@ -32,7 +32,7 @@ function OpenAccount() {
         <div className="row text-center justify-content-center">
           <div className="col-lg-8">
             <h2 className="mb-3" style={{ color: 'white', fontWeight: '700', fontSize: '2.5rem' }}>
-              Open a Zerodha account
+              Open a TradeZen account
             </h2>
             <p className="mb-4" style={{ color: 'rgba(255,255,255,0.9)', fontSize: '1.2rem' }}>
               Modern platforms and apps, ₹0 investments, and flat ₹20 intraday and F&O trades.

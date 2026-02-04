@@ -45,7 +45,7 @@ function Login() {
 
             if (response.data.status === 'success') {
                 // Store user info in localStorage for dashboard
-                localStorage.setItem('zerodhaUser', JSON.stringify(response.data.user));
+                localStorage.setItem('tradezenUser', JSON.stringify(response.data.user));
 
                 // Redirect to dashboard
                 window.location.href = DASHBOARD_URL;
@@ -71,7 +71,7 @@ function Login() {
                         <div className="text-center mb-4">
                             <img
                                 src="media/images/logo.svg"
-                                alt="Zerodha"
+                                alt="TradeZen"
                                 style={{ width: '180px', filter: 'brightness(0) invert(1)' }}
                             />
                             <h2 className="mt-4" style={{ color: 'white', fontWeight: '600' }}>
@@ -87,7 +87,7 @@ function Login() {
                             borderRadius: '20px',
                             boxShadow: '0 25px 50px rgba(0,0,0,0.2)'
                         }}>
-                            <h3 className="text-center mb-4">Login to Kite</h3>
+                            <h3 className="text-center mb-4">Login to ZenTrade</h3>
 
                             {error && (
                                 <div className="alert alert-danger d-flex align-items-center" role="alert">

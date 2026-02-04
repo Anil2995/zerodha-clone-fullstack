@@ -11,53 +11,53 @@ function ProductsPage() {
       <Hero />
       <LeftSection
         imageURL="media/images/kite.png"
-        productName="Kite"
-        productDesription="Our ultra-fast flagship trading platform with streaming market data, advanced charts, an elegant UI, and more. Enjoy the Kite experience seamlessly on your Android and iOS devices."
-        tryDemo="https://kite.zerodha.com/demo"
-        learnMore="https://kite.zerodha.com"
-        googlePlay="https://play.google.com/store/apps/details?id=com.zerodha.kite3"
-        appStore="https://apps.apple.com/in/app/kite-by-zerodha/id1449453498"
+        productName="ZenTrade"
+        productDesription="Our ultra-fast flagship trading platform with streaming market data, advanced charts, an elegant UI, and more. Enjoy the ZenTrade experience seamlessly on your Android and iOS devices."
+        tryDemo="#"
+        learnMore="#"
+        googlePlay="#"
+        appStore="#"
       />
       <RightSection
         imageURL="media/images/console.png"
         productName="Console"
-        productDesription="The central dashboard for your Zerodha account. Gain insights into your trades and investments with in-depth reports and visualisations."
-        learnMore="https://console.zerodha.com"
+        productDesription="The central dashboard for your TradeZen account. Gain insights into your trades and investments with in-depth reports and visualisations."
+        learnMore="#"
       />
       <LeftSection
         imageURL="media/images/coin.png"
         productName="Coin"
         productDesription="Buy direct mutual funds online, commission-free, delivered directly to your Demat account. Enjoy the investment experience on your Android and iOS devices."
-        tryDemo="https://coin.zerodha.com"
-        learnMore="https://coin.zerodha.com"
-        googlePlay="https://play.google.com/store/apps/details?id=com.zerodha.coin"
-        appStore="https://apps.apple.com/in/app/coin-by-zerodha/id1424444488"
+        tryDemo="#"
+        learnMore="#"
+        googlePlay="#"
+        appStore="#"
       />
       <RightSection
         imageURL="media/images/kiteconnect.png"
-        productName="Kite Connect API"
+        productName="ZenTrade Connect API"
         productDesription="Build powerful trading platforms and experiences with our super simple HTTP/JSON APIs. If you are a startup, build your investment app and showcase it to our clientbase."
-        learnMore="https://kite.trade"
+        learnMore="#"
       />
       <LeftSection
         imageURL="media/images/varsity.png"
         productName="Varsity Mobile"
         productDesription="An easy to grasp, collection of stock market lessons with in-depth coverage and illustrations. Content is broken down into bite-size cards to help you learn on the go."
-        tryDemo="https://zerodha.com/varsity"
-        learnMore="https://zerodha.com/varsity"
-        googlePlay="https://play.google.com/store/apps/details?id=com.zerodha.varsity"
-        appStore="https://apps.apple.com/in/app/varsity-by-zerodha/id1489096544"
+        tryDemo="#"
+        learnMore="#"
+        googlePlay="#"
+        appStore="#"
       />
       <div className="container text-center py-4">
         <p className="text-muted">
           Want to know more about our technology stack? Check out the{" "}
           <a
-            href="https://zerodha.tech"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
             className="text-primary"
           >
-            Zerodha.tech blog
+            TradeZen.tech blog
             <i className="fas fa-external-link-alt ms-1 small"></i>
           </a>
         </p>

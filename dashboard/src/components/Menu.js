@@ -8,7 +8,7 @@ const Menu = () => {
 
   useEffect(() => {
     // Get user info from localStorage
-    const storedUser = localStorage.getItem('zerodhaUser');
+    const storedUser = localStorage.getItem('tradezenUser');
     if (storedUser) {
       try {
         setUser(JSON.parse(storedUser));
@@ -32,7 +32,7 @@ const Menu = () => {
   };
 
   const handleLogout = () => {
-    localStorage.removeItem('zerodhaUser');
+    localStorage.removeItem('tradezenUser');
     window.location.href = 'http://localhost:3000';
   };
 
@@ -59,7 +59,7 @@ const Menu = () => {
       <a href="http://localhost:3000" className="logo-link">
         <img
           src="https://zerodha.com/static/images/logo.svg"
-          alt="Zerodha"
+          alt="TradeZen"
           className="logo"
           style={{ width: '120px', height: 'auto' }}
         />
@@ -158,7 +158,7 @@ const Menu = () => {
                 <i className="fas fa-cog me-2" style={{ width: '20px' }}></i>
                 Settings
               </a>
-              <a href="https://console.zerodha.com" target="_blank" rel="noopener noreferrer" style={{
+              <a href="https://console.tradezen.com" target="_blank" rel="noopener noreferrer" style={{
                 display: 'block',
                 padding: '10px 16px',
                 color: '#424242',

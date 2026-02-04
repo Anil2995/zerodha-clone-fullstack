@@ -6,7 +6,7 @@ function Stats() {
     {
       icon: "fa-users",
       title: "Customer-first always",
-      description: "That's why 1.6+ crore customers trust Zerodha with ~₹6 lakh crores of equity investments, making us India's largest broker; contributing to 15% of daily retail exchange volumes in India."
+      description: "That's why 1.6+ crore customers trust TradeZen with ~₹6 lakh crores of equity investments, making us India's largest broker; contributing to 15% of daily retail exchange volumes in India."
     },
     {
       icon: "fa-shield-halved",
@@ -15,7 +15,7 @@ function Stats() {
     },
     {
       icon: "fa-globe",
-      title: "The Zerodha universe",
+      title: "The TradeZen universe",
       description: "Not just an app, but a whole ecosystem. Our investments in 30+ fintech startups offer you tailored services specific to your needs."
     },
     {
@@ -59,7 +59,7 @@ function Stats() {
             <div className="text-center">
               <img
                 src="media/images/ecosystem.png"
-                alt="Zerodha Ecosystem"
+                alt="TradeZen Ecosystem"
                 className="img-fluid hover-lift"
                 style={{
                   maxWidth: "100%",
@@ -76,7 +76,7 @@ function Stats() {
                   rel="noopener noreferrer"
                   className="btn-secondary-custom"
                 >
-                  Try Kite demo <i className="fas fa-external-link-alt ms-2"></i>
+                  Try ZenTrade demo <i className="fas fa-external-link-alt ms-2"></i>
                 </a>
               </div>
             </div>

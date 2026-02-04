@@ -91,7 +91,7 @@ function Signup() {
                 setSuccess('Account created successfully! Redirecting to dashboard...');
 
                 // Store user info in localStorage for dashboard
-                localStorage.setItem('zerodhaUser', JSON.stringify(response.data.user));
+                localStorage.setItem('tradezenUser', JSON.stringify(response.data.user));
 
                 setTimeout(() => {
                     window.location.href = DASHBOARD_URL;
@@ -116,7 +116,7 @@ function Signup() {
                         <div className="pe-lg-4">
                             <h1 className="mb-4" style={{ fontWeight: '700' }}>
                                 Open a free
-                                <span style={{ color: '#387ED1' }}> Zerodha </span>
+                                <span style={{ color: '#387ED1' }}> TradeZen </span>
                                 account
                             </h1>
 

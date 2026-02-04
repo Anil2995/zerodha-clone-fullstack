@@ -42,7 +42,7 @@ const KiteLogin = ({ onLoginSuccess }) => {
 
             if (response.data.status === "success") {
                 // Store user info in localStorage
-                localStorage.setItem("zerodhaUser", JSON.stringify(response.data.user));
+                localStorage.setItem("tradezenUser", JSON.stringify(response.data.user));
 
                 // Call the success callback to update parent state
                 if (onLoginSuccess) {
@@ -62,11 +62,11 @@ const KiteLogin = ({ onLoginSuccess }) => {
             <div className="kite-login-left">
                 <img
                     src="https://zerodha.com/static/images/kite-logo.svg"
-                    alt="Kite"
+                    alt="ZenTrade"
                     className="kite-logo"
                 />
-                <h1>Kite</h1>
-                <p>Sign in to Kite. Don't have an account?</p>
+                <h1>ZenTrade</h1>
+                <p>Sign in to ZenTrade. Don't have an account?</p>
                 <a
                     href={`${LANDING_PAGE_URL}/signup`}
                     className="signup-link"
@@ -77,7 +77,7 @@ const KiteLogin = ({ onLoginSuccess }) => {
 
             <div className="kite-login-right">
                 <div className="login-card">
-                    <h2>Login to Kite</h2>
+                    <h2>Login to ZenTrade</h2>
 
                     {error && (
                         <div className="error-message">
@@ -152,7 +152,7 @@ const KiteLogin = ({ onLoginSuccess }) => {
                 <div className="help-links">
                     <a href={`${LANDING_PAGE_URL}/support`}>Help</a>
                     <span>•</span>
-                    <a href={`${LANDING_PAGE_URL}/about`}>About Zerodha</a>
+                    <a href={`${LANDING_PAGE_URL}/about`}>About TradeZen</a>
                     <span>•</span>
                     <a href={`${LANDING_PAGE_URL}/pricing`}>Pricing</a>
                 </div>

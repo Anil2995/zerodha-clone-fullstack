@@ -1,9 +1,9 @@
-# 🚀 Zerodha Clone - Full-Stack Stock Trading Platform
+# 🚀 TradeZen - Full-Stack Stock Trading Platform
 
 <div align="center">
   <img src="https://zerodha.com/static/images/logo.svg" alt="Zerodha Logo" width="200"/>
   
-  **A comprehensive clone of India's largest stock broker - [Zerodha](https://zerodha.com/)**
+  **A comprehensive clone of India's largest stock broker - [TradeZen](https://zerodha.com/)**
 
   ## 🌐 [**👉 VIEW LIVE PROJECT 👈**](https://frontend-lovat-five-16.vercel.app) 🌐
 

@@ -52,7 +52,7 @@ function Education() {
                 </li>
               </ul>
               <a
-                href="https://zerodha.com/varsity"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn"

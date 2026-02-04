@@ -36,13 +36,13 @@ const WelcomeModal = ({ user, onClose }) => {
         if (step < totalSteps) {
             setStep(step + 1);
         } else {
-            localStorage.setItem("zerodhaWelcomeSeen", "true");
+            localStorage.setItem("tradezenWelcomeSeen", "true");
             onClose();
         }
     };
 
     const handleSkip = () => {
-        localStorage.setItem("zerodhaWelcomeSeen", "true");
+        localStorage.setItem("tradezenWelcomeSeen", "true");
         onClose();
     };
 

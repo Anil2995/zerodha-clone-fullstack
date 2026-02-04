@@ -119,7 +119,7 @@ function Hero() {
               </div>
               <div className="mt-4">
                 <a
-                  href="https://zerodha.com/charges"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-secondary-custom"

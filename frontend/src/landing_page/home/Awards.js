@@ -30,7 +30,7 @@ function Awards() {
               Largest stock broker in India
             </h2>
             <p className="lead text-muted mb-4">
-              1.6+ crore Zerodha clients contribute to over 15% of all retail order volumes in India daily by trading and investing in:
+              1.6+ crore TradeZen clients contribute to over 15% of all retail order volumes in India daily by trading and investing in:
             </p>
 
             <div className="row g-3 mb-4">

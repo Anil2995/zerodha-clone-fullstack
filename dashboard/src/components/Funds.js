@@ -208,7 +208,7 @@ const Funds = () => {
       <div className="quick-actions">
         <h3>Quick Actions</h3>
         <div className="actions-grid">
-          <a href="https://console.zerodha.com" target="_blank" rel="noopener noreferrer" className="action-item">
+          <a href="https://console.tradezen.com" target="_blank" rel="noopener noreferrer" className="action-item">
             <span className="action-icon">📊</span>
             <span>Console</span>
           </a>

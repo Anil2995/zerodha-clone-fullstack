@@ -7,13 +7,13 @@ function Universe() {
       name: "Smallcase",
       logo: "smallcaseLogo.png",
       description: "Thematic investment platform",
-      url: "https://smallcase.zerodha.com"
+      url: "#"
     },
     {
       name: "Streak",
       logo: "streakLogo.png",
       description: "Algo trading platform",
-      url: "https://streak.zerodha.com"
+      url: "#"
     },
     {
       name: "Sensibull",
@@ -28,10 +28,10 @@ function Universe() {
       url: "https://joinditto.in"
     },
     {
-      name: "Zerodha Fund House",
+      name: "TradeZen Fund House",
       logo: "zerodhaFundhouse.png",
       description: "Asset management",
-      url: "https://zerodhamf.com"
+      url: "#"
     },
     {
       name: "Golden Pi",
@@ -45,7 +45,7 @@ function Universe() {
     <section className="section-padding" style={{ background: '#fafafa' }}>
       <div className="container">
         <div className="text-center mb-5">
-          <h2 className="section-title">The Zerodha Universe</h2>
+          <h2 className="section-title">The TradeZen Universe</h2>
           <p className="section-subtitle">
             Extend your trading and investment experience even further with our partner platforms
           </p>

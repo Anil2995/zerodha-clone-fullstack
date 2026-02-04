@@ -9,7 +9,7 @@ function Navbar() {
           <img
             src="media/images/logo.svg"
             style={{ width: "130px" }}
-            alt="Zerodha Logo"
+            alt="TradeZen Logo"
           />
         </Link>
         <button

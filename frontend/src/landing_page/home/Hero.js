@@ -9,7 +9,7 @@ function Hero() {
           <div className="col-12">
             <img
               src="media/images/homeHero.png"
-              alt="Zerodha Trading Platform"
+              alt="TradeZen Trading Platform"
               className="hero-image"
               style={{ maxWidth: "70%", height: "auto" }}
             />

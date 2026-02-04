@@ -11,9 +11,9 @@ function Brokerage() {
   ];
 
   const quickLinks = [
-    { icon: "fa-calculator", title: "Brokerage Calculator", url: "https://zerodha.com/brokerage-calculator" },
-    { icon: "fa-list-ul", title: "List of Charges", url: "https://zerodha.com/charges" },
-    { icon: "fa-percent", title: "Margin Calculator", url: "https://zerodha.com/margin-calculator" },
+    { icon: "fa-calculator", title: "Brokerage Calculator", url: "#" },
+    { icon: "fa-list-ul", title: "List of Charges", url: "#" },
+    { icon: "fa-percent", title: "Margin Calculator", url: "#" },
     { icon: "fa-exchange-alt", title: "Currency Charges", url: "#" }
   ];
 

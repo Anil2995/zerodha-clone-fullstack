@@ -11,13 +11,13 @@ function CreateTicket() {
         "Offline Account Opening",
         "Company/Partnership/HUF Account",
         "NRI Account Opening",
-        "Charges at Zerodha",
+        "Charges at TradeZen",
         "Getting Started"
       ]
     },
     {
       icon: "fa-exchange-alt",
-      category: "Your Zerodha Account",
+      category: "Your TradeZen Account",
       color: "#11998e",
       topics: [
         "Login Credentials",
@@ -34,7 +34,7 @@ function CreateTicket() {
       color: "#FF5722",
       topics: [
         "Trading FAQs",
-        "Kite Features",
+        "ZenTrade Features",
         "Margins",
         "Product & Order Types",
         "Corporate Actions",
@@ -206,7 +206,7 @@ function CreateTicket() {
                       </div>
                       <div>
                         <p className="mb-0 small text-muted">Email us</p>
-                        <p className="mb-0" style={{ fontWeight: '600' }}>support@zerodha.com</p>
+                        <p className="mb-0" style={{ fontWeight: '600' }}>support@tradezen.com</p>
                       </div>
                     </div>
                   </div>

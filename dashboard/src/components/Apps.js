@@ -4,10 +4,11 @@ import "./Apps.css";
 const Apps = () => {
   const zerodhaApps = [
     {
-      name: "Kite",
+
+      name: "ZenTrade",
       description: "Our ultra-fast flagship trading platform with streaming market data, advanced charts, and more.",
       icon: "https://zerodha.com/static/images/kite-logo.svg",
-      link: "https://kite.zerodha.com",
+      link: "#",
       color: "#FF5722",
       features: ["Streaming data", "Advanced charts", "GTT orders", "Multi-exchange"]
     },
@@ -15,7 +16,7 @@ const Apps = () => {
       name: "Console",
       description: "Central dashboard for funds, reports, holdings, and account settings.",
       icon: "https://zerodha.com/static/images/console-logo.svg",
-      link: "https://console.zerodha.com",
+      link: "#",
       color: "#4CAF50",
       features: ["Fund management", "Tax reports", "Portfolio analysis", "Account settings"]
     },
@@ -23,15 +24,15 @@ const Apps = () => {
       name: "Coin",
       description: "Direct mutual fund investments with zero commission.",
       icon: "https://zerodha.com/static/images/coin-logo.svg",
-      link: "https://coin.zerodha.com",
+      link: "#",
       color: "#2196F3",
       features: ["Direct MFs", "Zero commission", "SIP", "Goal tracking"]
     },
     {
-      name: "Kite Connect",
+      name: "ZenTrade Connect",
       description: "Build trading and investment apps with our APIs.",
       icon: "https://kite.trade/images/kiteconnect-logo.svg",
-      link: "https://kite.trade",
+      link: "#",
       color: "#9C27B0",
       features: ["REST APIs", "WebSocket", "SDK", "Documentation"]
     },
@@ -39,7 +40,7 @@ const Apps = () => {
       name: "Varsity",
       description: "Free and comprehensive stock market education.",
       icon: "https://zerodha.com/static/images/varsity-logo.svg",
-      link: "https://zerodha.com/varsity",
+      link: "#",
       color: "#FF9800",
       features: ["Free content", "12+ modules", "Certifications", "Videos"]
     },
@@ -47,7 +48,7 @@ const Apps = () => {
       name: "Sentinel",
       description: "Create custom alerts for stock prices and market events.",
       icon: "https://zerodha.com/static/images/sentinel-logo.svg",
-      link: "https://sentinel.zerodha.com",
+      link: "#",
       color: "#E91E63",
       features: ["Price alerts", "Custom conditions", "Email & SMS", "Multi-instrument"]
     }
@@ -58,21 +59,21 @@ const Apps = () => {
       name: "Smallcase",
       description: "Invest in portfolios of stocks curated by experts.",
       icon: "https://assets.smallcase.com/static/images/logo.svg",
-      link: "https://www.smallcase.com",
+      link: "#",
       category: "Investments"
     },
     {
       name: "Streak",
       description: "Create, backtest, and deploy trading strategies without coding.",
       icon: "https://streak.tech/assets/images/streak-logo.svg",
-      link: "https://streak.zerodha.com",
+      link: "#",
       category: "Algo Trading"
     },
     {
       name: "Sensibull",
       description: "Options trading made simple with visual strategies.",
       icon: "https://sensibull.com/assets/images/logo.svg",
-      link: "https://sensibull.com",
+      link: "#",
       category: "Options"
     },
     {
@@ -92,15 +93,15 @@ const Apps = () => {
           Apps
         </h1>
         <p className="apps-subtitle">
-          Trading and investment apps from Zerodha ecosystem
+          Trading and investment apps from TradeZen ecosystem
         </p>
       </div>
 
-      {/* Zerodha Apps Section */}
+      {/* TradeZen Apps Section */}
       <div className="apps-section">
         <h2 className="section-title">
           <span className="title-icon">🏢</span>
-          Zerodha Products
+          TradeZen Products
         </h2>
         <div className="apps-grid">
           {zerodhaApps.map((app, index) => (
@@ -148,7 +149,7 @@ const Apps = () => {
           Partner Apps
         </h2>
         <p className="section-subtitle">
-          Apps built on Kite Connect by third-party developers
+          Apps built on ZenTrade Connect by third-party developers
         </p>
         <div className="partner-apps-grid">
           {thirdPartyApps.map((app, index) => (
@@ -185,7 +186,7 @@ const Apps = () => {
       <div className="apps-stats">
         <div className="stat-item">
           <span className="stat-number">1 Cr+</span>
-          <span className="stat-label">Users on Kite</span>
+          <span className="stat-label">Users on ZenTrade</span>
         </div>
         <div className="stat-item">
           <span className="stat-number">50+</span>
