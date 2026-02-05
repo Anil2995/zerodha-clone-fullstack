@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { API_URL, LANDING_PAGE_URL } from "../constants";
-import "./KiteLogin.css";
+import "./ZenTradeLogin.css";
 
-const KiteLogin = ({ onLoginSuccess }) => {
+const ZenTradeLogin = ({ onLoginSuccess }) => {
     const [formData, setFormData] = useState({
         email: "",
         password: ""
@@ -58,12 +58,12 @@ const KiteLogin = ({ onLoginSuccess }) => {
     };
 
     return (
-        <div className="kite-login-container">
-            <div className="kite-login-left">
+        <div className="zentrade-login-container">
+            <div className="zentrade-login-left">
                 <img
                     src="https://zerodha.com/static/images/kite-logo.svg"
                     alt="ZenTrade"
-                    className="kite-logo"
+                    className="zentrade-logo"
                 />
                 <h1>ZenTrade</h1>
                 <p>Sign in to ZenTrade. Don't have an account?</p>
@@ -75,7 +75,7 @@ const KiteLogin = ({ onLoginSuccess }) => {
                 </a>
             </div>
 
-            <div className="kite-login-right">
+            <div className="zentrade-login-right">
                 <div className="login-card">
                     <h2>Login to ZenTrade</h2>
 
@@ -161,4 +161,4 @@ const KiteLogin = ({ onLoginSuccess }) => {
     );
 };
 
-export default KiteLogin;
+export default ZenTradeLogin;

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import Dashboard from "./Dashboard";
 import TopBar from "./TopBar";
-import KiteLogin from "./KiteLogin";
+import ZenTradeLogin from "./ZenTradeLogin";
 import WelcomeModal from "./WelcomeModal";
 
 const Home = () => {
@@ -59,7 +59,7 @@ const Home = () => {
     return (
       <div className="loading-container">
         <div className="loading-content">
-          <div className="kite-loader">
+          <div className="zentrade-loader">
             <div className="loader-ring"></div>
             <img
               src="https://zerodha.com/static/images/kite-logo.svg"
@@ -80,7 +80,7 @@ const Home = () => {
           .loading-content {
             text-align: center;
           }
-          .kite-loader {
+          .zentrade-loader {
             position: relative;
             width: 100px;
             height: 100px;
@@ -119,7 +119,7 @@ const Home = () => {
 
   // If not authenticated, show login page
   if (!isAuthenticated) {
-    return <KiteLogin onLoginSuccess={handleLoginSuccess} />;
+    return <ZenTradeLogin onLoginSuccess={handleLoginSuccess} />;
   }
 
   // If authenticated, show dashboard

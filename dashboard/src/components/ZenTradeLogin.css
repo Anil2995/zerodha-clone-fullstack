@@ -1,4 +1,4 @@
-.kite-login-container {
+.zentrade-login-container {
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -7,7 +7,7 @@
     padding: 20px;
 }
 
-.kite-login-card {
+.zentrade-login-card {
     background: white;
     border-radius: 16px;
     box-shadow: 0 25px 80px rgba(0, 0, 0, 0.2);
@@ -16,31 +16,31 @@
     overflow: hidden;
 }
 
-.kite-login-header {
+.zentrade-login-header {
     background: linear-gradient(135deg, #387ED1 0%, #5c9ce5 100%);
     padding: 30px;
     text-align: center;
 }
 
-.kite-logo {
+.zentrade-logo {
     width: 120px;
     margin-bottom: 10px;
 }
 
-.kite-login-header h1 {
+.zentrade-login-header h1 {
     color: white;
     font-size: 1.5rem;
     font-weight: 600;
     margin: 0;
 }
 
-.kite-login-header p {
+.zentrade-login-header p {
     color: rgba(255, 255, 255, 0.8);
     font-size: 0.9rem;
     margin: 5px 0 0 0;
 }
 
-.kite-login-form {
+.zentrade-login-form {
     padding: 30px;
 }
 
@@ -106,7 +106,7 @@
     transform: none;
 }
 
-.kite-login-footer {
+.zentrade-login-footer {
     padding: 20px 30px;
     background: #f8f9fa;
     border-top: 1px solid #e0e0e0;
@@ -142,12 +142,12 @@
 }
 
 @media (max-width: 480px) {
-    .kite-login-card {
+    .zentrade-login-card {
         border-radius: 0;
         min-height: 100vh;
     }
 
-    .kite-login-container {
+    .zentrade-login-container {
         padding: 0;
     }
 }
